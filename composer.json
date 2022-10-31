@@ -18,12 +18,30 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "name": "asciisd/zcrm-php-sdk",
+        "source": {
+          "url": "https://github.com/awais-afoxtech/zcrm-php-sdk.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "dist": {
+          "url": "https://api.github.com/repos/awais-afoxtech/zcrm-php-sdk/zipball/970306d95d3d74d8372814263ea3a8060815ad33",
+          "type": "zip"
+        }
+      }
+    }
+  ],
   "require": {
-    "php": "^8.1",
+    "php": "^7.2|^8.0|^8.1",
     "ext-json": "*",
+    "asciisd/zcrm-php-sdk": "dev-master",
     "illuminate/support": "^7.0|^8.0|^9.0",
-    "nesbot/carbon": "^2.0",
-    "asciisd/zcrm-php-sdk": "^2.0"
+    "nesbot/carbon": "^2.0"
   },
   "require-dev": {
     "mockery/mockery": "^1.4.4",
