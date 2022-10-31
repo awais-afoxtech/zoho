@@ -1,6 +1,7 @@
 {
   "name": "asciisd/zoho",
   "description": "Asciisd Zoho provide an elegant and easy way to communicate with Zoho CRM.",
+  "homepage": "https://github.com/awais-afoxtech/zoho",
   "keywords": [
     "Laravel",
     "zoho",
